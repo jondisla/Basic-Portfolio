@@ -79,7 +79,7 @@ h1, h3{
 h3{
     font-size: 30px;
 }
-
+/**********************************************************************/
 .main-section{
     background: white;
     padding: 23px;
@@ -132,7 +132,7 @@ footer{
     border-top: 5px solid rgb(89, 168, 242);
     color: white;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
     background: rgb(146, 146, 146);
     position: absolute;
     bottom: 0;
@@ -208,7 +208,15 @@ footer{
     font-size: 20px;
 }
 
-#contact-form input, textarea{
+#name{
+    width: 550px;
+}
+
+#email{
+    width: 550px;
+}
+
+#contact-form textarea{
     width: 550px;
 
 }
@@ -222,6 +230,9 @@ footer{
 }
 
 #submit{
+    clear: both;
+    position: fixed;
     background: rgb(89, 168, 242);
     color: white;
+    width: 100px;
 }
