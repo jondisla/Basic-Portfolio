@@ -6,7 +6,6 @@ body{
     font-size: 18px;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 132, 255);
     background: url(../images/mainbg.jpg)
 }
 
@@ -35,7 +34,7 @@ h1, h2, h3, p{
 #logo{
     width: 250px;
     height: 90px;
-    background: rgb(0, 132, 255);
+    background: rgb(89, 168, 242);
     color: white;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -72,9 +71,18 @@ nav a:first-child{
     
 }
 
+h1, h3{
+    font-size: 40px;
+    color: rgb(89, 168, 242);
+}
+
+h3{
+    font-size: 30px;
+}
+
 .main-section{
     background: white;
-    padding: 30px;
+    padding: 23px;
     margin: 0 0 40px 0;
     float: left;
     max-width: 650px;
@@ -92,6 +100,7 @@ nav a:first-child{
 
 .main-section img{
     float: left;
+    padding-right: 10px;
 }
 
 .sidebar{
@@ -119,15 +128,62 @@ nav a:first-child{
     text-decoration: center;
 }
 
-#footer{
-    border-top: 5px solid rgb(0, 132, 255);
+footer{
+    border-top: 5px solid rgb(89, 168, 242);
     color: white;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     background: rgb(146, 146, 146);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 30px;
 }
 
-/****************************************************************/
+/*************************projects***************************************/
+
+.project-container{
+    float: left;
+    background: white;
+    width: 650px;
+
+}
+
+.project-container h1{
+    border-bottom: 2px solid rgb(212, 212, 212);
+    padding: 10px;
+}
+
+.work{
+    display: inline-block;
+}
+
+.work h3{
+    background: rgb(89, 168, 242);;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    width: 270px;
+    margin: 10px;
+    margin-top: -65px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.auth-image{
+    width: 270px;
+    display: block;
+    margin-left: 35px;
+}
+
+.profooter{
+    position: fixed;
+    bottom: 0;
+}
+
+/**************************contact**************************************/
 
 #contact-form{
     background: white;
@@ -135,4 +191,37 @@ nav a:first-child{
     float: left;
     padding: 30px;
     margin: 0 0 40px 0;
+}
+
+.main-container h1{
+    border-bottom: 2px solid rgb(199, 199, 199);
+    padding: 10px;
+}
+
+#contact-form{
+    height: 570px;
+    color: rgb(121, 121, 121);
+}
+
+#contact-form input{
+    height: 40px;
+    font-size: 20px;
+}
+
+#contact-form input, textarea{
+    width: 550px;
+
+}
+
+#contact-form li{
+    margin: 5px;
+}
+
+#message{
+    height: 200px;
+}
+
+#submit{
+    background: rgb(89, 168, 242);
+    color: white;
 }
