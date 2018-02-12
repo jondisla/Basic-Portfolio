@@ -10,7 +10,6 @@ body{
 }
 
 .container {
-    width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
@@ -139,8 +138,14 @@ h3{
     transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
     opacity: 1;
 }
+#wrapper{
+    position: relative;
+    height: 700px;
+    bottom: 0;
+}
 
 footer{
+    clear: both;
     border-top: 5px solid rgb(89, 168, 242);
     color: white;
     text-align: center;
@@ -248,7 +253,6 @@ footer{
 
 #submit{
     clear: both;
-    position: fixed;
     background: rgb(89, 168, 242);
     color: white;
     width: 100px;
