@@ -134,14 +134,11 @@ h3{
     opacity: .9;
 }
 
+
+/*************************HOVER ACTION************************/
 .social:hover{
     transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
     opacity: 1;
-}
-#wrapper{
-    position: relative;
-    height: 700px;
-    bottom: 0;
 }
 
 footer{
@@ -151,11 +148,11 @@ footer{
     text-align: center;
     padding-top: 0px;
     background: rgb(146, 146, 146);
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding-bottom: 30px;
-}
+    }
 
 /*************************projects***************************************/
 
